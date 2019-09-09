@@ -43,6 +43,8 @@ aside {
 body {
   margin: 0 auto;
   max-width: 960px;
+  background-color: #c8a2c8;
+  color: white; 
 }
 
 #masthead, #footer {
@@ -69,6 +71,12 @@ img {
   width: 100%;
   height: auto;
 }
+#avatar{
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
 
 h1, h2, h3, h4 {
   margin-top: 0;
@@ -87,6 +95,7 @@ h4 {
 h1 {
   margin-bottom: 8px;
   font-weight: 300;
+  color: black;
 }
 
 #masthead {
@@ -135,7 +144,7 @@ p.footer {
 
 .item p.date {
   margin: 0;
-  color: #bbbbbb;
+  color: black;
   font-size: 12px;
   text-transform: uppercase;
 }
