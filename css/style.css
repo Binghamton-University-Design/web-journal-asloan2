@@ -43,8 +43,8 @@ aside {
 body {
   margin: 0 auto;
   max-width: 960px;
-  background-color: #c8a2c8;
-  color: white; 
+  background-color:   #E6E6FA;
+  color: #800080; 
 }
 
 #masthead, #footer {
@@ -80,7 +80,7 @@ img {
 
 h1, h2, h3, h4 {
   margin-top: 0;
-  font-family: 'Work Sans', sans-serif;
+ font-family: 'Source Sans Pro', sans-serif;
 }
 
 h4 {
@@ -95,7 +95,7 @@ h4 {
 h1 {
   margin-bottom: 8px;
   font-weight: 300;
-  color: black;
+  color: #DDA0DD;
 }
 
 #masthead {
@@ -123,7 +123,7 @@ footer {
 }
 
 p.footer {
-    color: #bbbbbb;
+    color: ##DDA0DD;
     font-size: 11px;
   }
 
@@ -144,7 +144,7 @@ p.footer {
 
 .item p.date {
   margin: 0;
-  color: black;
+  color: #DDA0DD;
   font-size: 12px;
   text-transform: uppercase;
 }
