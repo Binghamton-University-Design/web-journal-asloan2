@@ -13,10 +13,12 @@ footer {
 
 main {
   grid-column: 1 / span 8;
+
 }
 
 aside {
   grid-column: span 4;
+
 }
 
 @media (max-width: 700px) {
@@ -24,6 +26,9 @@ aside {
   main,
   aside {
     grid-column: 1 / span 12;
+  background-color:   #E6E6FA;
+  color: #800080; 
+
   }
   
   aside {
@@ -43,8 +48,8 @@ aside {
 body {
   margin: 0 auto;
   max-width: 960px;
-  background-color:   #E6E6FA;
-  color: #800080; 
+  background-color:   mediumpurple;
+  color: mediumpurple; 
 }
 
 #masthead, #footer {
@@ -56,6 +61,12 @@ body {
 main,
 aside {
   padding: 1em;
+}
+
+main,
+aside {
+  padding: 1em;
+  background-color: lavender;
 }
 
 body {
@@ -95,7 +106,7 @@ h4 {
 h1 {
   margin-bottom: 8px;
   font-weight: 300;
-  color: #DDA0DD;
+  color: #mediumpurple;
 }
 
 #masthead {
@@ -123,7 +134,7 @@ footer {
 }
 
 p.footer {
-    color: ##DDA0DD;
+    color: lavender;
     font-size: 11px;
   }
 
@@ -144,7 +155,7 @@ p.footer {
 
 .item p.date {
   margin: 0;
-  color: #DDA0DD;
+  color: #mediumpurple;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -161,7 +172,7 @@ p.footer {
 
 a {
   text-decoration: underline;
-  color: #000000;
+  color: #mediumpurple;
   transition: all 0.15s ease-in-out;
 }
 
